@@ -65,7 +65,7 @@ fn ls_command(command_parts:&[&str]){
   let mut path=".";
   if command_parts.len()>0{
     
-    path=command_parts[1];
+    path=command_parts[0];
 
   }
 
